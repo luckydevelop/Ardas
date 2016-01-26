@@ -1,0 +1,41 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:with type="ua.luckydev.client.login.LoginResources" field="res"/>
+
+    <gwt:HTMLPanel styleName="{res.style.root}">
+
+        <div align="center" >
+
+            <gwt:HTMLPanel tag="table">
+                <tr>
+                    <td> <gwt:Label ui:field="user"  styleName="{res.style.cell}"/></td>
+                    <td><gwt:TextBox ui:field="loginBox" styleName="{res.style.box} {res.style.cell}"/></td>
+                </tr>
+                <tr>
+                    <td><gwt:Label ui:field="password" styleName="{res.style.cell}"/></td>
+                    <td> <gwt:PasswordTextBox ui:field="passwordBox" styleName="{res.style.box} {res.style.cell} "/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <gwt:Button ui:field="buttonSubmit" styleName="{res.style.loginButton}"/></td>
+                </tr>
+            </gwt:HTMLPanel>
+
+            <!--<gwt:Image resource='{res.logo}' styleName="{res.style.img}"/>-->
+
+
+            <gwt:VerticalPanel styleName="{res.style.redText}">
+
+                <gwt:Label ui:field="wrongLogin"
+                           />
+                <gwt:Label ui:field="wrongPassword"
+                           />
+            </gwt:VerticalPanel>
+
+        </div>
+
+
+
+    </gwt:HTMLPanel>
+</ui:UiBinder>

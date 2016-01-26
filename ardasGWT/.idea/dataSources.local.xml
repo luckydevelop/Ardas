@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - ardas@localhost" uuid="70368f0f-7bb3-4700-ab79-43a56f9658dd">
+      <secret-storage>master_key</secret-storage>
+      <user-name>admin</user-name>
+      <schema-pattern>ardas.*</schema-pattern>
+      <default-schemas>ardas.*</default-schemas>
+    </data-source>
+  </component>
+</project>

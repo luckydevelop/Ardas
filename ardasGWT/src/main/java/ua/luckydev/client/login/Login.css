@@ -1,0 +1,44 @@
+.root {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.bottom {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.cell {
+    display:table-cell;
+    border: 1px;
+}
+
+.redText {
+    color: #ff0000;
+    padding: 5px 0;
+    font-size: 13px;
+    text-align: left;
+}
+
+.loginButton {
+    border: 2px solid black;
+    color: black;
+    background: white;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding: 4px 10px 5px;
+    align-content: center;
+    box-shadow: 2px 2px 0 1px black;
+}
+
+.box {
+    border: 2px solid black;
+    display: block;
+    font-size: 12px;
+    margin: 0 0 5px;
+    padding: 3px;
+    width: 203px;
+}

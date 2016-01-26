@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:with type="ua.luckydev.client.logined.LoginedResources" field="loginedRes"/>
+
+    <gwt:HTMLPanel>
+
+        <gwt:Label ui:field="helloMessage" styleName="{loginedRes.style.text}"/>
+
+        <gwt:Anchor ui:field="logout" href="" styleName="{loginedRes.style.text}"/>
+
+    </gwt:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,12 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:with type="ua.luckydev.client.login.LoginResources" field="res"/>
+
+    <gwt:HTMLPanel styleName="{res.style.root}">
+
+            <gwt:Label text=" © 2015 Ardas Group"/>
+
+    </gwt:HTMLPanel>
+
+</ui:UiBinder>

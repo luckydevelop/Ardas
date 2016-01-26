@@ -1,0 +1,46 @@
+html, body {
+    height: 99%;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+#header {
+    padding: 0 0 0 1%;
+    height:15%;
+    display: table;
+    width: 99%;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-top:2px solid black;
+}
+
+#headerImg {
+    width: 30%;
+    display: table;
+}
+
+#main{
+   display: table;
+    height: 80%;
+    width: 100%;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-top:2px solid black;
+}
+
+#footer{
+    display: table;
+    height:5%;
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+}
