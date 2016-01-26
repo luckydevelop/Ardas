@@ -1,0 +1,2 @@
+serviceClass: client.WorldService
+path: 39A5A67184A58C90B37CFD5298322A62.gwt.rpc

@@ -15,9 +15,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceDirectory>/gwttest/src/main/java/client</project.build.sourceDirectory>
         <project.build.testSourceDirectory>/gwttest/test/main/java/client</project.build.testSourceDirectory>
-        <tomcat.webport>8082</tomcat.webport>
-        <tomcat.ajpport>8182</tomcat.ajpport>
-        <tomcat.context>/parent</tomcat.context>
     </properties>
 
     <dependencies>
@@ -139,20 +136,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
-            <!--<plugin>-->
-                <!--<groupId>org.apache.tomcat.maven</groupId>-->
-                <!--<artifactId>tomcat7-maven-plugin</artifactId>-->
-                <!--<version>2.0</version>-->
-                <!--<configuration>-->
-                    <!--<path>${tomcat.context}</path>-->
-                    <!--<port>${tomcat.webport}</port>-->
-                    <!--<ajpPort>${tomcat.ajpport}</ajpPort>-->
-                    <!--<systemProperties>-->
-                        <!--<JAVA_OPTS>-XX:MaxPermSize=256m</JAVA_OPTS>-->
-                    <!--</systemProperties>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
 
         </plugins>
     </build>

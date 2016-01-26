@@ -4,38 +4,27 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-<servlet>
-    <servlet-name>MainRpcService</servlet-name>
-    <servlet-class>ua.luckydev.server.MainRpcServiceImpl</servlet-class>
-</servlet>
+    <servlet>
+        <servlet-name>MainRpcService</servlet-name>
+        <servlet-class>ua.luckydev.server.MainRpcServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainRpcService</servlet-name>
+        <url-pattern>/gwtArdas/gwtArdas</url-pattern>
+    </servlet-mapping>
 
-<!--@see MainRpcService interface -->
-<servlet-mapping>
-    <servlet-name>MainRpcService</servlet-name>
-    <url-pattern>/gwtArdas/gwtArdas</url-pattern>
-</servlet-mapping>
-
-    <!--<servlet>-->
-        <!--<servlet-name>jUnitHostImpl</servlet-name>-->
-        <!--<servlet-class>com.google.gwt.junit.server.JUnitHostImpl</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>jUnitHostImpl</servlet-name>-->
-        <!--<url-pattern>/gwtArdas/junithost/*</url-pattern>-->
-    <!--</servlet-mapping>-->
-
-    <!--<servlet>-->
-        <!--<servlet-name>remoteLogging</servlet-name>-->
-        <!--<servlet-class>com.google.gwt.logging.server.RemoteLoggingServiceImpl</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>remoteLogging</servlet-name>-->
-        <!--<url-pattern>/gwtArdas/remote_logging</url-pattern>-->
-    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name>remoteLogging</servlet-name>
+        <servlet-class>com.google.gwt.logging.server.RemoteLoggingServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>remoteLogging</servlet-name>
+        <url-pattern>/gwtArdas/remote_logging</url-pattern>
+    </servlet-mapping>
 
     <!-- Default page to serve -->
     <welcome-file-list>
-        <welcome-file>Main.html</welcome-file>
+        <welcome-file>Main.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>

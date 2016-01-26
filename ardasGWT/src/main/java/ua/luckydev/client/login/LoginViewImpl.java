@@ -48,6 +48,7 @@ public class LoginViewImpl extends Composite  {
     final LoginResources res;
 
     private Boolean tooShort = false;
+    public boolean checkData = false;
 
     public final Logger logger = Logger.getLogger(LoginViewImpl.class.getName());
 
